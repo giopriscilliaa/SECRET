@@ -1,0 +1,80 @@
+/* Gaya untuk Video */
+.main-video, .surprise-video {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Tampilan Dasar */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ff9a9e, #fecfef);
+  color: #444;
+  margin: 0;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Kontainer Utama */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #ff6f61;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+/* Tombol Kejutan */
+button, .button {
+  margin: 15px;
+  padding: 10px 20px;
+  background: #ff6f61;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover, .button:hover {
+  background: #ff877a;
+}
+
+.hidden {
+  display: none;
+}
+
+a.button {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Tombol Play Musik */
+#play-button {
+  display: none;
+  margin-top: 20px;
+  background: #6c63ff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#play-button:hover {
+  background: #867df0;
+}
